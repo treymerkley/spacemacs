@@ -65,7 +65,7 @@ your =dotspacemacs-configuration-layers= list:
 
 *** gptel-agent support
 gptel, while capable of supporting agents, does not have out-of-the-box
-agentic capabilities. [[github.com/karthink/gptel-agent][gptel-agent]] is an agentic preset for gptel. Accordingly,
+agentic capabilities. [[https://github.com/karthink/gptel-agent][gptel-agent]] is an agentic preset for gptel. Accordingly,
 gptel-agent will not work without gptel enabled.
 
 To enable gptel support in your Spacemacs configuration, add the following to
