@@ -68,12 +68,12 @@ gptel, while capable of supporting agents, does not have out-of-the-box
 agentic capabilities. [[https://github.com/karthink/gptel-agent][gptel-agent]] is an agentic preset for gptel. Accordingly,
 gptel-agent will not work without gptel enabled.
 
-To enable gptel support in your Spacemacs configuration, add the following to
+To enable gptel-agent support in your Spacemacs configuration, add the following to
 your =dotspacemacs-configuration-layers= list:
 
 #+BEGIN_SRC emacs-lisp
   (setq-default dotspacemacs-configuration-layers
-   '((llm-client :variables llm-client-enable-gptel t)))
+   '((llm-client :variables llm-client-enable-gptel-agent t)))
 #+END_SRC
 
 ** Ellama support
