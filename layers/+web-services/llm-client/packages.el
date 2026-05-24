@@ -71,7 +71,6 @@
   "Initialize the `gptel-agent` package and set up keybindings."
   (use-package gptel-agent
     :defer t
-    :ensure t
     :init
     ;; evilify gptel-context-buffer-mode-map
     (evilified-state-evilify-map gptel-context-buffer-mode-map
